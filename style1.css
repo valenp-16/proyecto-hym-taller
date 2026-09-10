@@ -1,6 +1,57 @@
 .card{
-  position: relative;
   width: 100vw;
   min-height: 100vh;
+  box-sizing: border-box;
   margin: 0;
+  padding: 50px;
+}
+body {
+  margin: 0;
+}
+.site-header{
+  position: relative;
+  background: rgba(255, 255, 255, 0.25); /* Fondo semitransparente como la muestra */
+  border: 1.5px solid #2b4336;
+  border-radius: 999px;
+  margin: 10px auto 30px auto;
+  width: min(96%, 1120px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(5px); 
+   
+}
+
+.header-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.4rem 1.2rem;
+}
+
+.btn-icon {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #2b4336;
+}
+.logo img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: block;
+}
+.search-box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.search-box input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 16px;
+  color: #2b4336;
 }
