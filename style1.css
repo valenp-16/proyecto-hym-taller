@@ -31,7 +31,7 @@ body {
 .btn-icon {
   background: none;
   border: none;
-  font-size: 30px;
+  font-size: 24px;
   cursor: pointer;
   color: #2b4336;
 }
@@ -45,7 +45,11 @@ body {
   flex: 1;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
+  background: rgba(255,255,255, 0.4);
+  border: 1.5px solid #2b4336;
+  border-radius: 999px;
+  padding: 8px 16px;
 }
 .search-box input {
   width: 100%;
@@ -58,4 +62,14 @@ body {
 .search-icon{
   font-size: 22px;
   color: #2b4336;
+}
+.search-bar{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255,255,255, 0.3);
+  border: 2px solid #2b4336;
+  border-radius: 999px;
+  padding: 12px 24px;
 }
