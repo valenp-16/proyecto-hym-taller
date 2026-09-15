@@ -21,12 +21,12 @@
   height: 100px;
   object-fit: cover;
   }
-   .card-content{
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    margin-top: 20px;
-  }
+.card {
+  width: 380px;
+  height: 508px;
+  border-radius: 1rem;
+  background-image: url("imagenes/imagen.fondo.png")
+}
   .image-container{
     flex: 0.9;
     display: flex;
