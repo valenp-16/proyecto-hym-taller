@@ -31,7 +31,7 @@ body {
 .btn-icon {
   background: none;
   border: none;
-  font-size: 20px;
+  font-size: 30px;
   cursor: pointer;
   color: #2b4336;
 }
@@ -53,5 +53,9 @@ body {
   background: transparent;
   outline: none;
   font-size: 16px;
+  color: #2b4336;
+}
+.search-icon{
+  font-size: 22px;
   color: #2b4336;
 }
