@@ -78,8 +78,9 @@ body {
   border-radius: 999px;
   padding: 12px 24px;
 }
-.products-container{
-  display: flex;
+.products-grid{
+  display: flex ;
+  flex-direction: row ;
   justify-content: center;
   align-items: stretch;
   gap: 25px;
@@ -100,6 +101,8 @@ body {
   text-align: center;
   backdrop-filter: blur(4px);
   justify-content: space-between;
+  flex: 1;
+  max-width: 280px;
 }
 .title{
   text-align: center;
@@ -124,8 +127,9 @@ body {
   max-height: 100%;
   width: auto;
   height: auto;
-  object-fit: contain;
+  object-fit: cover;
   display: block;
+  object-position: center;
 }
 .product-card h3{
   color: #2b4336;
