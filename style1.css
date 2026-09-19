@@ -157,3 +157,35 @@ body {
   z-index: 1000;
   text-align: left;
 }
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+.dropdown-menu ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu-category{
+  font-weight: bold;
+  color: #2b4336;
+  font-size: 15px;
+  margin-top: 8px;
+  font-family: 'Georgia', serif;
+}
+.menu-category:first-child{
+  margin-top: 0;
+}
+.menu-category::before{
+  content: "° ";
+}
+.dropdown-menu ul ul{
+  padding-left: 12px;
+}
+.dropdown-menu ul ul li::before{
+  content: "*";
+  margin-right: 4px;
+}
+.dropdown-menu ul ul li:hover{
+  color: #000;
+  text-decoration: underline;
+}
