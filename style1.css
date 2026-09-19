@@ -182,6 +182,16 @@ body {
 .dropdown-menu ul ul{
   padding-left: 12px;
 }
+.dropdown-menu a{
+  text-decoration: none;
+  color: #4a5d52;
+  font-size: 13px;
+  font-weight: normal;
+  display: inline-block;
+  width: 100%;
+  padding: 2px 0;
+  transition: color 0.2s ease;
+}
 .dropdown-menu ul ul li::before{
   content: "*";
   margin-right: 4px;
@@ -189,4 +199,8 @@ body {
 .dropdown-menu ul ul li:hover{
   color: #000;
   text-decoration: underline;
+}
+.dropdown-menu a:hover{
+  color: #000000;
+  font-weight: bold;
 }
