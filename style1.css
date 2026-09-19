@@ -204,3 +204,18 @@ body {
   color: #000000;
   font-weight: bold;
 }
+.category-link{
+  color: #2b4336;
+  font-weight: bold;
+  font-family: 'Georgia',serif;
+}
+.menu-checkbox{
+  display: none;
+}
+.label.btn-icon{
+  cursor: pointer;
+  user-select: none;
+}
+.menu-checkbox:checked .dropdown-menu{
+  display:block;
+}
