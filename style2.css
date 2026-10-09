@@ -26,9 +26,9 @@
   border: none;
 }
 .card {
-    width: 430px;
-    max-width: 90%;
-    padding: 45px;
+    width: 450px;
+    max-width: 92%;
+    padding: 45px 40px;
     background: rgba(255, 253, 248, 0.97);
     border: 1px solid #d8dfd3;
     border-radius: 26px;
@@ -97,13 +97,15 @@
 .main-nav a {
   text-decoration: none;
   color: #1b4d3e;             
-  padding: 0.5rem 1.4rem;      
+  padding: 12px 24px;      
   border-radius: 999px;        
   font-weight: 600;
   font-size: 0.95rem;
   border: 1.5px solid #1b4d3e; 
   background-color: transparent;
   transition: all 0.3s ease;
+  display: inline-block;
+
 }
 .main-nav a:hover {
   background-color: #1b4d3e;   
@@ -153,4 +155,23 @@ input {
 input:focus {
     border-color: #7c9487;
     box-shadow: 0 0 0 3px rgba(124, 148, 135, 0.18);
+}
+
+.crear-cuenta {
+    text-align: center;
+    color: #526257;
+    display: block;
+    position: static;
+    width: 100%;
+    margin: 24px 0 0;
+    text-align: center;
+    line-height: 1.6 ;
+}
+.crear-cuenta a {
+    color: #43594f;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    transition: color 0.3s;
+    margin-left: 4px;
 }
