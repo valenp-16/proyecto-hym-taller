@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 110px 20px 35px;
+    background-image: url("imagenes/imagen.fondo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor-principal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card {
+    width: 450px;
+    max-width: 100%;
+    padding: 38px 40px;
+    background: rgba(255, 253, 248, 0.97);
+    border: 1px solid #d8dfd3;
+    border-radius: 26px;
+    box-shadow: 0 18px 40px rgba(53, 68, 57, 0.20);
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 32px;
+    color: #43594f;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 14px;
+    color: #526257;
+    margin-bottom: 28px;
+}
+
+.grupo-input {
+    margin-bottom: 19px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #526257;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 13px 14px;
+    border: 1px solid #d5dcd2;
+    border-radius: 12px;
+    background-color: #fffefa;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input::placeholder {
+    color: #aaaFA8;
+}
+
+input:focus {
+    border-color: #7c9487;
+    box-shadow: 0 0 0 3px rgba(124, 148, 135, 0.18);
+}
+.button-group{
+    display: flex;
+    gap: 15px;
+  }
+
+.btn-registro{
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    padding: 14px;
+    border: 1.5px solid #1b4d3e;
+    border-radius: 25px;
+    color: #1b4d3e;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+    background-color: transparent;
+}
+.btn-registro:hover{
+  background-color: #1b4d3e;
+  color: #ffffff;
+}
+
+.btn-registro:hover {
+    background: #1b4d3e;
+    border-color: #1b4d3e;
+    transform: translateY(-2px);
+}
+
+.iniciar-cuenta {
+    margin-top: 24px;
+    text-align: center;
+    color: #526257;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.iniciar-cuenta a {
+    color: #1b4d3e;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.iniciar-cuenta a:hover {
+    color: #789582;
+    text-decoration: underline;
+}
+
+ .card {
+        padding: 30px 24px;
+    }
+
+h1 {
+     font-size: 28px;
+     color: #43594f;
+    }
