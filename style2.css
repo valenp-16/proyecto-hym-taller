@@ -36,31 +36,10 @@
     display: block;
     margin-bottom: 8px;
 }
-
-.card {
-  width: 380px;
-  height: 508px;
-  border-radius: 1rem;
-  background-image: url("imagenes/imagen.fondo.png");
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
-}
-
-  .image-container{
+.image-container{
     flex: 0.9;
     display: flex;
     justify-content: center;
-  }
-
-.card input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    box-sizing: border-box;
-}
-
-.card button {
-    display: flex;
-    gap: 15px;
   }
 
  .btn{
@@ -74,14 +53,8 @@
     font-size: 0.9rem;
     text-align: center;
     transition: all 0.3s ease;
-    background-color: transparent;
+      background-color: transparent;
   }
- .main-nav {
-  margin-left: 0;
-  display: flex;
-  gap: 12px;
-  margin-top: 20px;
-}
 
 .login p {
     text-align: center;
@@ -108,16 +81,10 @@
     transition: all 0.3s ease;
     background-color: transparent;
   }
-  .btn:hover{
+   .btn:hover{
     background-color: #1b4d3e;
     color: #ffffff;
   }
- .main-nav {
-  margin-left: 0;
-  display: flex;
-  gap: 12px;
-  margin-top: 20px;
-}
 
 .main-nav a {
   text-decoration: none;
@@ -126,8 +93,6 @@
   border-radius: 999px;        
   font-weight: 600;
   font-size: 0.95rem;
-  
-  
   border: 1.5px solid #1b4d3e; 
   background-color: transparent;
   transition: all 0.3s ease;
@@ -136,4 +101,53 @@
 .main-nav a:hover {
   background-color: #1b4d3e;   
   color: #ffffff;              
+}
+/* Tarjeta del formulario */
+
+form {
+    width: 350px;
+    padding: 35px;
+    background: rgba(255, 253, 248, 0.96);
+    border-radius: 22px;
+    box-shadow: 0 10px 30px rgba(83, 69, 55, 0.12);
+}
+
+/* Título */
+
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 32px;
+    color: #43594f;
+    margin-bottom: 30px;
+}
+
+/* Etiquetas */
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #43594f;
+}
+
+/* Campos */
+
+input {
+
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px 15px;
+    margin-bottom: 22px;
+    border: 1px solid #d8cec5;
+    border-radius: 12px;
+    background: #fffdfa;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    border-color: #7c9487;
+    box-shadow: 0 0 0 3px rgba(124, 148, 135, 0.15);
 }
