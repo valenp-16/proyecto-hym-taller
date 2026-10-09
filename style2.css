@@ -63,6 +63,38 @@
     gap: 15px;
   }
 
+ .btn{
+    display: inline-block;
+    padding: 10px 24px;
+    border: 1.5px solid #1b4d3e;
+    border-radius: 25px;
+    color: #1b4d3e;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    background-color: transparent;
+  }
+ .main-nav {
+  margin-left: 0;
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.login p {
+    text-align: center;
+    margin-top: 20px;
+}
+.login a {
+    text-decoration: none;
+} 
+
+.button-group{
+    display: flex;
+    gap: 15px;
+  }
   .btn{
     display: inline-block;
     padding: 10px 24px;
@@ -76,11 +108,32 @@
     transition: all 0.3s ease;
     background-color: transparent;
   }
-  
-.login p {
-    text-align: center;
-    margin-top: 20px;
+  .btn:hover{
+    background-color: #1b4d3e;
+    color: #ffffff;
+  }
+ .main-nav {
+  margin-left: 0;
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
 }
-.login a {
-    text-decoration: none;
+
+.main-nav a {
+  text-decoration: none;
+  color: #1b4d3e;             
+  padding: 0.5rem 1.4rem;      
+  border-radius: 999px;        
+  font-weight: 600;
+  font-size: 0.95rem;
+  
+  
+  border: 1.5px solid #1b4d3e; 
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.main-nav a:hover {
+  background-color: #1b4d3e;   
+  color: #ffffff;              
 }
