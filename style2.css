@@ -34,6 +34,8 @@
     width: 350px;
     padding: 40px;
     border-radius: 10px;
+    background-color: rgba(255,253, 248, 0.95);
+    box-shadow: 0 10px 30px rgba(83, 69, 55, 0.12);
  
 }
 .login h1 {
@@ -49,21 +51,6 @@
     display: flex;
     justify-content: center;
   }
-
- .btn{
-    display: inline-block;
-    padding: 10px 24px;
-    border: 1.5px solid #1b4d3e;
-    border-radius: 25px;
-    color: #1b4d3e;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 0.9rem;
-    text-align: center;
-    transition: all 0.3s ease;
-      background-color: transparent;
-  }
-
 .login p {
     text-align: center;
     margin-top: 20px;
@@ -71,7 +58,6 @@
 .login a {
     text-decoration: none;
 } 
-
 .button-group{
     display: flex;
     gap: 15px;
@@ -113,11 +99,11 @@
 /* Tarjeta del formulario */
 
 form {
-    width: 350px;
-    padding: 35px;
-    background: rgba(255, 253, 248, 0.96);
-    border-radius: 22px;
-    box-shadow: 0 10px 30px rgba(83, 69, 55, 0.12);
+    width: 100%;
+    padding: 0;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
 }
 
 /* Título */
