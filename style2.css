@@ -3,15 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
-   body{
+  body{
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
   background-image: url("imagenes/imagen.fondo.png");
   background-size: cover;
 } 
+.contenedor-principal {
+  width: 380px;
+  height: 508px;
+  border-radius: 1rem;
+
+}
 .logo{
   position: absolute;
   top: 20px;
