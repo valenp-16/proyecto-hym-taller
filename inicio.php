@@ -81,4 +81,8 @@ if (!isset($_SESSION["usuario_id"])) {
       </div> 
       </main>
   </div>
+  <div class="cerrar-sesion">
+  <a href ="api/logout.php">Cerrar sesion</a>
+</div>
 </body>
+</html>

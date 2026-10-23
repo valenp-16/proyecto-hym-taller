@@ -105,6 +105,7 @@
                 });
 
                 const datos = await respuesta.json();
+                console.log("respuesta del registro:", respuesta.status, datos)
 
                 mensaje.textContent =
                     datos.mensaje || datos.error ||
@@ -112,8 +113,9 @@
                         ? "Solicitud procesada."
                         : "No se pudo crear la cuenta.");
 
-                if (respuesta.ok && datos.success) {
+                if (respuesta.ok && respuesta.status==201) {
                     formulario.reset();
+                    window.location.href = "registrarse.html";
                 }
 
             } catch (error) {
