@@ -59,25 +59,36 @@ if (!isset($_SESSION["usuario_id"])) {
    </header>
     <main class="container">
       <h2 class="title">Algunos de nuestros productos de bienestar</h2>
-      <div class="products-grid">
-        <article class="product-card">
-          <div class="image-container">
-            <img src="imagenes/sahumerios.webp" alt="sahumerios">
-          </div>
-          <h3 class="product-title">Sahumerios</h3>
-        </article>
-        <article class="product-card">
-          <div class="image-container">
-            <img src="imagenes/humidificadores.webp" alt="humidificadores">
-          </div>
-          <h3 class="product-title">Humidificadores</h3>
-        </article>
-        <article class="product-card">
-          <div class="image-container">
-            <img src="imagenes/fragancias.jpg" alt="fragancias">
-          </div>
-          <h3 class="product-title">Fragancias</h3>
-        </article>
+      
+<div class="products-grid">
+
+  <a href="sahumerios.html" class="product-card">
+    <div class="image-container">
+      <img src="imagenes/sahumerios.webp" alt="Sahumerios">
+    </div>
+    <h3 class="product-title">Sahumerios</h3>
+    <p>Descubrí nuestros aromas.</p>
+    <span class="ver-mas">Ver categoría →</span>
+  </a>
+
+  <a href="humidificadores.html" class="product-card">
+    <div class="image-container">
+      <img src="imagenes/humidificadores.webp" alt="Humidificadores">
+    </div>
+    <h3 class="product-title">Humidificadores</h3>
+    <p>Creá un ambiente de bienestar.</p>
+    <span class="ver-mas">Ver categoría →</span>
+  </a>
+
+  <a href="fragancias.html" class="product-card">
+    <div class="image-container">
+      <img src="imagenes/fragancias.jpg" alt="Fragancias">
+    </div>
+    <h3 class="product-title">Fragancias</h3>
+    <p>Perfumes para tus espacios.</p>
+    <span class="ver-mas">Ver categoría →</span>
+  </a>
+</div>
       </div> 
       </main>
   </div>
